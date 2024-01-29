@@ -29,52 +29,54 @@ vector<int> CountingSort(vector<int> array){
 
   return outputArray;
 }
-int partition(vector<int> arr, int low, int high){
-  int pivot = arr.at(high);
+int partition(int arr[], int low, int high){
+
+  int pivot = arr[high];
   int smallest = (low-1);
   
   for(int i=low; i <=high; i++){
-    if(arr.at(i) < pivot){
+    if(arr[i] < pivot){
       smallest++;
       
-      int temp = arr.at(i);
-      arr.at(i) = arr.at(smallest);
-      arr.at(smallest) = temp;
+      int temp = arr[i];
+      arr[i] = arr[smallest];
+      arr[smallest] = temp;
     }
   }
  
-  int temp = arr.at(smallest + 1);
-  arr.at(smallest + 1) = arr.at(high);
-  arr.at(high) = temp;
+  int temp = arr[smallest+1];
+  arr[smallest+1] = arr[high];
+  arr[high] = temp;
   return(smallest + 1);
 }
-vector<int> QuickSort(vector<int> arr, int low, int high){
 
-  if(low < high)
-  {
-    int partitionIndex = partition(arr,low,high);
-    QuickSort(arr,low,partitionIndex-1);
-    QuickSort(arr,partitionIndex+1, high);
+bool QuickSort(int arr[], int low, int high){
+  if(low < high){
+    int partitionIndex = partition(arr, low, high);
+    QuickSort(arr, low, partitionIndex - 1);
+    QuickSort(arr, partitionIndex + 1, high);
   }
- return arr;
+  return true;
 }
 
 int main(){
-  vector<int> numbers;
+ vector<int> numbersVec;
   srand(time(0));
-  
-  // Had to use 100000 instead of 100 Mil because QuickSort was taking too long
-  for(int i = 0; i < 100000; i++){
-    numbers.push_back(rand() % 50 + 1);
+  const int SIZE = 1000000;
+ int numbers[SIZE];
+  for(int i = 0; i < 1000000; i++){
+    int random = rand() % 50 + 1; 
+    numbers[i] = random;
+    numbersVec.push_back(random);
   }
   auto start = high_resolution_clock::now();
-  CountingSort(numbers);
+  CountingSort(numbersVec);
   auto stop = high_resolution_clock::now();
   auto duration = duration_cast<microseconds>(stop - start);
   cout << "Counting Sort took: " << duration.count() << " microseconds" << endl;
 
   start = high_resolution_clock::now();
-  QuickSort(numbers, 0, numbers.size()-1) ;
+  QuickSort(numbers, 0, SIZE-1) ;
   stop = high_resolution_clock::now();
   duration = duration_cast<microseconds>(stop - start);
   cout << "QuickSort took: " << duration.count() << " microseconds" << endl;
