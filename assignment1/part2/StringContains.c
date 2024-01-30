@@ -2,6 +2,23 @@
 #include <string.h>
 #include <stdbool.h>
 
+void searchString(char line[], char word[]){
+  char* token = strtok(line, " ");
+  bool found = false;
+
+  while(token != NULL){
+    if(strncmp(word, token, strlen(word)) == 0){
+      found = true; 
+    }
+    token = strtok(NULL, " ");
+  }
+  if(found){
+    printf("FOUND\n");
+  } else {
+    printf("NOT FOUND\n");
+  }
+}
+
 int main(){
   char line[256];
   printf("Enter your line\n");
@@ -11,20 +28,5 @@ int main(){
   printf("Enter the word to search for\n");
   scanf("%63s", word);
 
-  char *token = strtok(line, " ");
-  bool found = false;
-
-  while (token != NULL){
-    if(strncmp(word, token, strlen(word)) == 0){
-      found = true;
-    }
-    token = strtok(NULL, " ");
-  }
-  
-  if(found){
-    printf("FOUND\n");
-  } else{
-    printf("NOT FOUND\n");
-  }
-  
+  searchString(line, word);
 }

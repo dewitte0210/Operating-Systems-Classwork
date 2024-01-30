@@ -1,0 +1,57 @@
+Script started on 2024-01-29 21:35:18-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="183" LINES="50"]
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1[00m$ cd part1
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part1[00m$ javac SortNumbers.java
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part1[00m$ java -cp . SortNumbers
+Counting Sort took: 6474 microseconds
+Quick Sort took: 48759 microseconds
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part1[00m$ g++ SortNumbers.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part1[00m$ ./a.out
+Counting Sort took: 5603 microseconds
+QuickSort took: 123685 microseconds
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part1[00m$ cd ..
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1[00m$ cd part2
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ ls
+[0m[01;32ma.out[0m  StringContains.c  StringContains.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ gcc String Con[K[K[K[KContains.c
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ ls
+[0m[01;32ma.out[0m  StringContains.c  StringContains.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ a.out
+a.out: command not found
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ ./a.out
+Enter your line
+HEllo    hello,      ello, my name is evan
+Enter the word to search for
+ea van
+FOUND
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ g++ StringContaints.cpp
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KStringContaints.cpp: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ g++ StringContains.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ ./a.out
+Please enter your line
+Hello, my name is evan
+please enter the word to search for
+evan
+FOUND
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ ls
+[0m[01;32ma.out[0m  StringContains.c  StringContains.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part2[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part2[00m$ cd ..
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1[00m$ cd part3
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part3[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part3[00m$ ls
+[0m[01;32ma.out[0m  ToCString.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part3[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part3[00m$ g++ StringContains.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KToCString.cpp
+
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part3[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part3[00m$ 
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part3[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part3[00m$ ./a.out
+Please enter your line
+Hello, my name is evan
+Hello,
+my
+name
+is
+evan
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment1/part3[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment1/part3[00m$ exit
+exit
+
+Script done on 2024-01-29 21:37:52-06:00 [COMMAND_EXIT_CODE="0"]
