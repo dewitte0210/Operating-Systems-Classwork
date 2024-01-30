@@ -2,6 +2,14 @@
 #include <string.h>
 #include <stdbool.h>
 
+
+void searchString(char* line, char* word){
+  char *token = strtok(*line, " ");
+  bool found = false;
+
+  return;
+}
+
 int main(){
   char line[256];
   printf("Enter your line\n");
