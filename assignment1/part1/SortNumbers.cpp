@@ -62,9 +62,9 @@ bool QuickSort(int arr[], int low, int high){
 int main(){
  vector<int> numbersVec;
   srand(time(0));
-  const int SIZE = 1000000;
+  const int SIZE = 100000;
  int numbers[SIZE];
-  for(int i = 0; i < 1000000; i++){
+  for(int i = 0; i < SIZE; i++){
     int random = rand() % 50 + 1; 
     numbers[i] = random;
     numbersVec.push_back(random);
