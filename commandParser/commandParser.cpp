@@ -29,7 +29,6 @@ vector<string> getCommands(string filePath){
 
 string parseString(string command, int commandID){
   vector<string> tokens = tokenize(command);
-  string toPrint = "Command " + to_string(commandID) + ": ";
   int found[] = {-1, -1, -1};
   
   for(int i = 0; i < tokens.size(); i++){
