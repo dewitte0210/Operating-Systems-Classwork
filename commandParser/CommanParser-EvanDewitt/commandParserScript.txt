@@ -1,0 +1,8 @@
+Script started on 2024-01-31 12:21:02-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="183" LINES="50"]
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/commandParser[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/commandParser[00m$ g++ commandParser.cpp
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/commandParser[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/commandParser[00m$ 
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/commandParser[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/commandParser[00m$ ./a.out
+]0;dewitte0210@dewitte0210-VirtualBox: ~/Documents/Operating-Systems-Classwork/commandParser[01;32mdewitte0210@dewitte0210-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/commandParser[00m$ exit
+exit
+
+Script done on 2024-01-31 12:21:18-06:00 [COMMAND_EXIT_CODE="0"]
