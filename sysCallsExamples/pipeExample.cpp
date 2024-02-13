@@ -7,7 +7,6 @@
 #include <iostream>
 
 using namespace std;
-// 32:57
 int main(){
   size_t Maxsize = 80;
   int fd[2], nbytes;

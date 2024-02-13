@@ -1,0 +1,17 @@
+Script started on 2024-02-11 11:57:13-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="163" LINES="40"]
+]0;evan@evan-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment3[01;32mevan@evan-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment3[00m$ gcc part1.c -o passkey
+[01m[Kpart1.c:[m[K In function ‘[01m[Kparent[m[K’:
+[01m[Kpart1.c:64:12:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+   64 |     printf([01;35m[KreadBuffer[m[K);
+      |            [01;35m[K^~~~~~~~~~[m[K
+]0;evan@evan-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment3[01;32mevan@evan-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment3[00m$ ./passkey
+Please enter your passkey
+hello
+FOUND]0;evan@evan-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment3[01;32mevan@evan-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment3[00m$ g++ part2.cc[Kpp -o exeCommand
+]0;evan@evan-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment3[01;32mevan@evan-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment3[00m$ ./exeCommand
+Please enter your command
+ls -la
+]0;evan@evan-VirtualBox: ~/Documents/Operating-Systems-Classwork/assignment3[01;32mevan@evan-VirtualBox[00m:[01;34m~/Documents/Operating-Systems-Classwork/assignment3[00m$ exit
+exit
+
+Script done on 2024-02-11 11:58:01-06:00 [COMMAND_EXIT_CODE="0"]

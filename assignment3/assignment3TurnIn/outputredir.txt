@@ -1,0 +1,11 @@
+total 132
+drwxrwxr-x 2 evan evan  4096 Feb 11 11:57 .
+drwxrwxr-x 7 evan evan  4096 Feb 10 16:46 ..
+-rwxrwxr-x 1 evan evan 44640 Feb 11 11:55 a.out
+-rw-rw-r-- 1 evan evan     0 Feb 11 11:57 as3Script.txt
+-rwxrwxr-x 1 evan evan 44640 Feb 11 11:57 exeCommand
+-rw-rw-r-- 1 evan evan   411 Feb 11 11:56 outputredir.txt
+-rw-rw-r-- 1 evan evan  2319 Feb 11 11:54 part1.c
+-rw-rw-r-- 1 evan evan  1062 Feb 11 11:51 part2.cpp
+-rwxrwxr-x 1 evan evan 17416 Feb 11 11:57 passkey
+-rw-rw-r-- 1 evan evan    38 Feb 10 21:06 passkeys.txt
